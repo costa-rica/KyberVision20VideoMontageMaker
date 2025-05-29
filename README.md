@@ -67,3 +67,9 @@ process.stderr.on("data", (data) => console.error(`Error: ${data}`));
     3.	Generates a file list for merging.
     4.	Merges clips into a final video in PATH_VIDEOS_MONTAGE_COMPLETE.
     5.	Deletes temporary clips after merging.
+
+## Installation
+
+### Ubuntu
+
+`sudo apt install ffmpeg`
