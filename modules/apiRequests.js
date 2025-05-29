@@ -7,8 +7,9 @@ async function apiPostRequestVideoMontageIsComplete(
   user,
   token
 ) {
+  // Must be local IP Address
   // const url = `${process.env.URL_LOCAL_KV_API_FOR_VIDEO_MONTAGE_MAKER}/videos/montage-service/video-completed-notify-user`;
-  const url = `${process.env.URL_BASE_KV_API}/videos/montage-service/video-completed-notify-user`;
+  const url = `${process.env.URL_BASE_KV_API_LOCAL}/videos/montage-service/video-completed-notify-user`;
   // console.log(`-----> [3] token: ${token}`);
   console.log(
     `- Create video montage step #3: in KV VideoProcessor01 apiPostRequestVideoMontageIsComplete -`
