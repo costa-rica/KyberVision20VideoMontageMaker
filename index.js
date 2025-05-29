@@ -58,6 +58,7 @@ async function createVideoMontage(
   );
   if (!fs.existsSync(videoFilePathAndName)) {
     console.error("❌ Source video file not found.");
+    console.log(`- failed to find:${videoFilePathAndName}`);
     process.exit(1);
   }
 
