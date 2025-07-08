@@ -1,7 +1,7 @@
 {
-  "name": "kybervision15videomontagemaker",
+  "name": "kybervision16videomontagemaker",
   "version": "1.0.0",
-  "main": "videoProcessor.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

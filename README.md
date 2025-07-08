@@ -1,6 +1,6 @@
-# 🎥 KyberVision15VideoMontageMaker
+# 🎥 KyberVision16VideoMontageMaker
 
-**KyberVision15VideoMontageMaker** is a standalone microservice that generates video montages by extracting clips from a source video based on specified timestamps and merging them into a final video.
+**KyberVision16VideoMontageMaker** is a standalone microservice that generates video montages by extracting clips from a source video based on specified timestamps and merging them into a final video.
 
 ## 📌 Overview
 
@@ -26,7 +26,7 @@
 Ensure you have a `.env` file with the following paths:
 
 ```sh
-PATH_VIDEOS_UPLOAD03=/Users/nick/Documents/_project_resources/KyberVision15API/match_videos/upload03
+PATH_VIDEOS_UPLOADED=/Users/nickrodriguez/Documents/_project_resources/KyberVision16API/session_videos/uploaded
 PATH_VIDEOS_MONTAGE_CLIPS=/path/to/temp_clips
 PATH_VIDEOS_MONTAGE_COMPLETE=/path/to/final_videos
 ```

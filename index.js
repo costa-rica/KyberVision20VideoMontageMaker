@@ -53,7 +53,7 @@ async function createVideoMontage(
   //   "-02-createVideoMontage"
   // );
   const videoFilePathAndName = path.join(
-    process.env.PATH_VIDEOS_UPLOAD03,
+    process.env.PATH_VIDEOS_UPLOADED,
     filename
   );
   if (!fs.existsSync(videoFilePathAndName)) {
