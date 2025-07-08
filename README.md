@@ -29,9 +29,11 @@ Ensure you have a `.env` file with the following paths:
 PATH_VIDEOS_UPLOADED=/Users/nickrodriguez/Documents/_project_resources/KyberVision16API/session_videos/uploaded
 PATH_VIDEOS_MONTAGE_CLIPS=/path/to/temp_clips
 PATH_VIDEOS_MONTAGE_COMPLETE=/path/to/final_videos
+URL_LOCAL_KV_API_FOR_VIDEO_MONTAGE_MAKER=http://localhost:8001
 ```
 
 - NOTE: when running from API the .env from the API is used.
+- IMPORTANT: the url must be local IP Address
 
 ## 🚀 How to Run
 

@@ -5,7 +5,7 @@ const ffmpeg = require("fluent-ffmpeg");
 const {
   apiPostRequestVideoMontageIsComplete,
 } = require("./modules/apiRequests");
-const { writeRequestArgs } = require("./modules/common");
+// const { writeRequestArgs } = require("./modules/common");
 const { addWatermarkToVideo } = require("./modules/watermark");
 
 // Function to delete all files in PATH_VIDEOS_MONTAGE_CLIPS
