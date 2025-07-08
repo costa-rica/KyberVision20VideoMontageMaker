@@ -73,3 +73,7 @@ process.stderr.on("data", (data) => console.error(`Error: ${data}`));
 ### Ubuntu
 
 `sudo apt install ffmpeg`
+
+### MacOS
+
+`brew install ffmpeg`
