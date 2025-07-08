@@ -32,7 +32,7 @@ PATH_VIDEOS_MONTAGE_COMPLETE=/path/to/final_videos
 URL_LOCAL_KV_API_FOR_VIDEO_MONTAGE_MAKER=http://localhost:8001
 ```
 
-- NOTE: when running from API the .env from the API is used.
+- NOTE: when running from Queuer app the .env from the Queuer app is used.
 - IMPORTANT: the url must be local IP Address
 
 ## 🚀 How to Run
