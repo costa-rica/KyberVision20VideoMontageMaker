@@ -1,6 +1,6 @@
 require("dotenv").config();
 const axios = require("axios");
-// const { writeRequestArgs } = require("./common");
+const { writeRequestArgs } = require("./common");
 
 async function apiPostRequestVideoMontageIsComplete(
   montageVideoFilename,
@@ -18,7 +18,7 @@ async function apiPostRequestVideoMontageIsComplete(
     filename: montageVideoFilename,
     user,
   };
-  // writeRequestArgs(requestData, "-03-apiPostRequestVideoMontageIsComplete");
+  writeRequestArgs(requestData, "-03-apiPostRequestVideoMontageIsComplete");
 
   try {
     console.log(`📡 Sending API request to: ${url}`);
