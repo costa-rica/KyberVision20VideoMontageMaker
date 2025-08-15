@@ -1,6 +1,6 @@
-# 🎥 KyberVision17VideoMontageMaker
+# 🎥 KyberVision18VideoMontageMaker
 
-**KyberVision17VideoMontageMaker** is a standalone microservice that generates video montages by extracting clips from a source video based on specified timestamps and merging them into a final video.
+**KyberVision18VideoMontageMaker** is a standalone microservice that generates video montages by extracting clips from a source video based on specified timestamps and merging them into a final video.
 
 ## 📌 Overview
 
