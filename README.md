@@ -1,6 +1,6 @@
-# 🎥 KyberVision18VideoMontageMaker
+# 🎥 KyberVision20VideoMontageMaker
 
-**KyberVision18VideoMontageMaker** is a standalone microservice that generates video montages by extracting clips from a source video based on specified timestamps and merging them into a final video.
+**KyberVision20VideoMontageMaker** is a standalone microservice that generates video montages by extracting clips from a source video based on specified timestamps and merging them into a final video.
 
 ## 📌 Overview
 
@@ -26,7 +26,7 @@
 Ensure you have a `.env` file with the following paths:
 
 ```sh
-PATH_VIDEOS_UPLOADED=/Users/nickrodriguez/Documents/_project_resources/KyberVision16API/session_videos/uploaded
+PATH_VIDEOS_UPLOADED=/Users/nickrodriguez/Documents/_project_resources/KyberVision20API/session_videos/uploaded
 PATH_VIDEOS_MONTAGE_CLIPS=/path/to/temp_clips
 PATH_VIDEOS_MONTAGE_COMPLETE=/path/to/final_videos
 URL_LOCAL_KV_API_FOR_VIDEO_MONTAGE_MAKER=http://localhost:8001
@@ -53,9 +53,9 @@ node index.js "videoId0009-matchId1-userId1.mp4" '[{"timestamp":10.5},{"timestam
 const { spawn } = require("child_process");
 
 const process = spawn("node", [
-  "/Users/nick/Documents/KyberVisionVideoProcessor/index.js",
-  videoFilePathAndName,
-  JSON.stringify(timestampArray),
+	"/Users/nick/Documents/KyberVisionVideoProcessor/index.js",
+	videoFilePathAndName,
+	JSON.stringify(timestampArray),
 ]);
 
 process.stdout.on("data", (data) => console.log(`Output: ${data}`));
